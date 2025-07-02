@@ -6,14 +6,14 @@ python-dotenv
 # 1. Build a environment with the following steps:
 #    Create a virtual environment:
 #    ```
-#    python -m venv venv
+#    python -m venv myenv
 #    ```
 #    or 
 #    ```
-#    python3 -m venv venv
+#    python3 -m venv myenv
 #    ```
 #    depending on your Python version.
-#    This will create a directory named `venv` in your project folder.
+#    This will create a directory named `myenv` in your project folder.
 #    Make sure to run this command in the root directory of your project.
 #    If you are using a different Python version, replace `python` with the
 #    appropriate command (e.g., `python3`).
