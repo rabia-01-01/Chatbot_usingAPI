@@ -1,2 +1,1 @@
-# Chatbot_usingAPI
-First AI Project
+# Digital_Literacy_Chatbot
