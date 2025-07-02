@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Digital Literacy Chatbot</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+  <div class="chatbot-container">
+    <div class="chatbot-header">
+      <h2>Digital Literacy Assistant 🤖</h2>
+      <p>Ask me how to use WhatsApp, Paytm, Google Maps, and more!</p>
+    </div>
+    <div id="chat-window" class="chat-window"></div>
+    <form id="chat-form" class="chat-form" autocomplete="on">
+      <input type="text" id="user-input" placeholder="Type your digital tool question..." required>
+      <button type="submit" id="btn" onclick="send()">Send</button>
+    </form>
+    <div class="quick-questions">
+      <button type="button" onclick="quickAsk('How do I send a photo on WhatsApp?')">WhatsApp</button>
+      <button type="button" onclick="quickAsk('How to pay someone using Paytm?')">Paytm</button>
+      <button type="button" onclick="quickAsk('How to find directions in Google Maps?')">Google Maps</button>
+    </div>
+  </div>
+  <script src="../static/script.js"></script>
+</body>
+</html>
+
+
